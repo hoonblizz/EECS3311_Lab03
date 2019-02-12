@@ -75,7 +75,7 @@ feature -- commands
 	remove (key: K)
 			-- removes an element whose value is `key' from the map
 		do
-			print("%NSorted model map..." + key.out + ", " + implementation [key].out)
+			
 			implementation.subtract ([key, implementation [key]])
 		end
 
